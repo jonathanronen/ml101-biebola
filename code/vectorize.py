@@ -37,8 +37,6 @@ if __name__ == '__main__':
             dictionary.append(row[0])
 
     TFM = [[tweet.count(word) for word in dictionary] for tweet in texts]
-    # with open(TFM_FILENAME, 'wb') as f:
-        # pickle.dump(TFM, f)
 
     m = sp.sparse.csr_matrix(TFM)
     with open(TFM_FILENAME, 'wb') as f:
