@@ -1,5 +1,5 @@
 ## Example code for tweet classification
-
+Special Topics In Computer Science: Computing with Large Data Sets, NYU 2014
 
 #### Code
 Code for preprocessing, vectorizing, and classifying tweets.
